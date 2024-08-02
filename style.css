@@ -1,0 +1,127 @@
+body{
+    text-align: center;
+    padding:5px 5px;
+    background: linear-gradient(#003049, #669BBC);
+    font-family: "Poppins", sans-serif;
+
+    ;
+}
+
+.title-container{
+    background-image: url("images/carawat.jpeg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    margin:10px auto 0px auto;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:2px solid #003049;
+
+}
+
+#title{
+    color:#C1121F;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #FDF0D5;
+    padding:5px;
+    margin:50px auto;
+    opacity: 0.8;
+    border:2px solid #003049;
+    text-shadow: 1px 1px #003049;
+    
+}
+
+#caption{
+    color:#C1121F;
+    font-size: 20px;
+    background-color: #FDF0D5;
+    font-style: italic;
+    margin:0 auto;
+    text-shadow: 0px 0px 1px #669BBC;
+    opacity: 0.9;
+    border:2px solid #003049;
+    text-shadow: 0px 0px 1px #003049;
+
+}
+
+.places-list{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    background-color:#FDF0D5; 
+    border:2px solid #003049;
+}
+
+.places{
+    color:#C1121F;
+    width:300px;
+    height:auto;
+    background-color: #FDF0D5;
+    padding:30px;
+}
+
+.place-img{
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
+    border:2px solid #003049;
+
+}
+
+.place-name{
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px #003049;
+
+}
+
+.place-description{
+    font-size: 15px;
+    font-style: italic;
+    text-shadow: 0px 0px 1px #003049;
+
+}
+
+.places:hover{
+    background-color: #003049;
+    color:#FDF0D5;
+}
+
+.people{
+    display: flex;
+    justify-content: center;
+    width:500px;
+    margin:20px auto;
+    background-color:#FDF0D5; 
+    padding:20px;
+    align-items: center;
+    border-radius: 5px;
+    border:2px solid #003049;
+    color:#C1121F;
+
+}
+
+.people:hover{
+    background-color: #003049;
+    color:#FDF0D5;
+}
+.person-img{
+    width: 200px;
+    height:350px;
+    border-radius: 5px;
+    border:1px solid #003049;
+}
+
+.person-info{
+    text-shadow: 1px 1px #003049;
+
+}
+
+.person-name{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
